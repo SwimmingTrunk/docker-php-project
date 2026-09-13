@@ -14,6 +14,7 @@ if (!$result) {
 
 $row = $result->fetch_assoc();
 
+echo "<h1>User from MySQL</h1>";
 echo "ID: " . $row["id"] . "<br>";
 echo "Name: " . htmlspecialchars($row["name"]);
 
